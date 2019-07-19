@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>webcam</title>
+    <script src="js/camvas.js"></script>
+    <script src="js/webcam.js"></script>
+    <script src="pico/pico.js"></script>
+    <script src="pico/lploc.js"></script>
+</head>
+<body>
+    <hr>
+    <section>
+        <h3>ACESSO AO STREAMING DA CAMERA</h3>
+        <p>CLIQUE NO BOTÃO ABAIXO E PERMITA O ACESSO À CAMERA.</p>
+        <p><b>Todo o processamento é feito no lado do cliente, i.e., sem envio de imagens so servidor.</b></p>
+        <p>Para mais informações sobre o algoritmo, entre em contato <a href="../">aqui</a>.</p>
+    </section>
+    <hr>
+    <p><input type="button" value="INICIAR CAMERA" onclick="button_callback()"></p>
+    <p><canvas width=640 height=480></canvas></p>
+
+</body>
+</html>
